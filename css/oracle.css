@@ -1,0 +1,51 @@
+﻿
+#contentimg 
+{
+    height: 600px;
+    width: auto;
+    background-image: url(../content/remotereading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 25%;
+    border-radius: 3px;
+    float:left;
+    margin-right: 30px;
+}
+
+div span
+{
+    position:relative;
+    top:40%;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:5px 5px 5px 5px;
+    font-size:4em;
+    font-family:carobtn;
+    letter-spacing:4px;
+    border-radius:4px;
+}
+#contenttext
+{
+    text-align:left;
+    padding-left:30px;
+}
+
+#contenttext.p
+{
+    float: none;
+}
+
+@media screen and (max-width: 820px) 
+{
+    #contentimg
+    {
+        height:250px;
+        float:none;
+        margin-right:initial;
+    }
+
+    div span
+    {
+        font-size:2em;
+    }
+}

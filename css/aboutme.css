@@ -1,0 +1,130 @@
+﻿@font-face 
+{
+    font-family: 'carobtn';
+    src: url('CAROBTN.TTF') format('truetype');
+}
+
+main h1
+{
+    text-align:center;
+}
+
+main b
+{
+    font-size:larger;
+}
+
+main
+{
+    text-align:left;
+}
+
+#classes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#classes a
+{
+    margin: 20px 10px 10px 10px;
+    flex:0 0 400px;
+    height: 500px;
+    background-color:white;
+    border-radius:5px;
+}
+
+#classes #reikihealing 
+{
+    flex: 0 0 400px;
+    height: 261px;
+}
+
+/*a span
+{
+    position:relative;
+    top:49%;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:0px 5px 0px 5px;
+    font-size:2em;
+    letter-spacing:2px;
+    font-family:carobtn;
+    z-index:1;
+}*/
+
+a span
+{
+    position:relative;
+    top:85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    font-size:2em;
+    letter-spacing:2px;
+    font-family:carobtn;
+    z-index:1;
+    border-radius:4px;
+    padding:0px 5px 0px 5px;
+}
+
+a:link
+{
+    text-decoration:none;
+}
+
+#shamanism {
+    background-image: url(../content/shamanism.jpg);
+    background-position: 50% 45%;
+    background-size: cover;
+}
+
+#readings
+{
+    background-image:url(../content/readings.jpg);
+    background-position:50% 20%;
+    background-size:cover;
+}
+
+#reikihealing {
+    background-image: url(../content/reikihealing.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#courses {
+    background-image: url(../content/courses.jpg);
+    background-position: center 30%;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 820px) 
+{
+    #classes a
+    {
+        min-height:150px;
+        min-width:200px;
+        height:200px;
+    }
+
+    #services a
+    {
+        min-height:150px;
+        min-width:200px;
+        height:200px;
+    }
+
+    span a
+    {
+        top:40%;
+    }
+
+    #classes #reikihealing 
+    {
+        min-height: 150px;
+        min-width: 200px;
+        height: 200px;
+        background-position: left center;
+        flex: 0 0 400px;
+    }
+}

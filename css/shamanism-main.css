@@ -1,0 +1,62 @@
+﻿#contentimg 
+{
+    height: 600px;
+    width: 300px;
+    margin-top: 20px;
+    background-image: url(../content/shamanism2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    border-radius: 3px;
+    float:left;
+}
+
+div span
+{
+    position:relative;
+    top:40%;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:5px 5px 5px 5px;
+    font-size:3em;
+    font-family:carobtn;
+    letter-spacing:4px;
+    border-radius:4px;
+}
+
+#contenttext 
+{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#contentdiv 
+{
+    margin: 20px 10px 10px 10px;
+    flex: 1 1 400px;
+    min-height: 200px;
+    max-height: 400px;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width: 820px) 
+{
+    #contentimg 
+    {
+        height: 300px;
+        width: 100%;
+        float: none;
+        background-position: 50% 50%;
+    }
+
+    div span
+    {
+        font-size:2em;
+    }
+}
