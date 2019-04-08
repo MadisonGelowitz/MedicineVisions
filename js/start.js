@@ -1,0 +1,1 @@
+(function($){$(document).ready(function(){$('.menu').dropit();$('#menu2').dropit({action:'mouseenter'});});})(window.jQuery);
